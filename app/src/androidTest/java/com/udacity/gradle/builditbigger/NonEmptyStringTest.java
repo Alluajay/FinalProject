@@ -18,7 +18,7 @@ public class NonEmptyStringTest extends AndroidTestCase {
         endpointsAsyncTask.execute();
         try {
             result = endpointsAsyncTask.get();
-            Log.d(Tag, "Retrieved a non-empty string successfully: " + result);
+            Log.e(Tag, "Retrieved a non-empty string successfully: " + result);
         } catch (Exception e) {
             e.printStackTrace();
         }
